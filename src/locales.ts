@@ -1,0 +1,50 @@
+export const translations = {
+  en: {
+    appTitle: "PATP",
+    addCustomAI: "Add Custom AI",
+    resetDefaults: "Reset to Defaults",
+    resetConfirm: "Reset all services to default settings? This will delete custom services.",
+    deleteConfirm: "Are you sure you want to delete this service?",
+    sendToAll: "Send to All",
+    inputPlaceholder: "Enter message to send to all active AIs... (Press Enter to send)",
+    namePlaceholder: "Name (e.g. DeepSeek)",
+    urlPlaceholder: "URL (e.g. https://chat.deepseek.com)",
+    selectorPlaceholder: "Input Selector (CSS selector)",
+    submitSelectorPlaceholder: "Submit Selector (optional)",
+    helperText: "Tip: Right-click input/button > Inspect > Copy Selector (or use #id / .class)",
+    nameHelp: "Name your AI service, e.g., DeepSeek, ChatGPT",
+    urlHelp: "The URL of the chat interface, e.g., https://chat.deepseek.com",
+    selectorHelp: "Right-click the input box > Inspect > Copy > Copy selector.",
+    submitHelp: "Optional. If left blank, Enter key will be simulated. If that fails, provide the send button selector.",
+    cancel: "Cancel",
+    add: "Add",
+    requiredAlert: "Name, URL, and Input Selector are required",
+    toggleLang: "中文",
+    close: "Close"
+  },
+  zh: {
+    appTitle: "PATP",
+    addCustomAI: "添加自定义 AI",
+    resetDefaults: "重置为默认设置",
+    resetConfirm: "确定要重置所有服务为默认设置吗？这将删除所有自定义服务。",
+    deleteConfirm: "确定要删除此服务吗？",
+    sendToAll: "发送给所有",
+    inputPlaceholder: "输入消息发送给所有激活的 AI... (按 Enter 发送，Shift+Enter 换行)",
+    namePlaceholder: "名称",
+    urlPlaceholder: "网址",
+    selectorPlaceholder: "输入框选择器 (CSS 选择器)",
+    submitSelectorPlaceholder: "发送按钮选择器 (可选)",
+    helperText: "提示：右键点击网页输入框/按钮 > 检查 > 复制选择器 (或使用 #id / .class)",
+    nameHelp: "给这个 AI 起个名字，例如：DeepSeek, ChatGPT",
+    urlHelp: "AI 服务的对话页面网址，例如：https://chat.deepseek.com",
+    selectorHelp: "这是最关键的一步。请在网页输入框上右键 -> 检查 -> Copy -> Copy selector。例如：#prompt-textarea 或 .chat-input",
+    submitHelp: "可选。如果不填写，程序会尝试模拟回车键发送。如果回车键无法发送，请填写发送按钮的选择器。例如：button[data-testid='send-button']",
+    cancel: "取消",
+    add: "添加",
+    requiredAlert: "名称、网址和输入框选择器为必填项",
+    toggleLang: "English",
+    close: "关闭"
+  }
+};
+
+export type Language = 'en' | 'zh';
