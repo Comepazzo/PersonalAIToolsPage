@@ -1,0 +1,23 @@
+# Build outputs
+release/
+dist/
+dist-electron/
+builder-cache/
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
